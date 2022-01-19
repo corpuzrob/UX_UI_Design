@@ -1,0 +1,248 @@
+.header {
+    /* padding: 10px; */
+    /* background: #e8c3b9; */
+    background: rgb(232, 195, 185, 0.25);
+    position: fixed;
+    height:7em;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    top: 0;
+    margin-top: 0;
+    padding-left: 0.5em;
+    /* color: #9fb585; */
+    /* color: #b4ca9a; */
+    color: #f18f74;
+    text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+    position: fixed;
+    text-align: left;
+    font-family: 'Stalemate', cursive;
+    /* font-family: 'Grey Qo', cursive; */
+    font-size: 6rem;
+}
+
+#navbar_container {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    right: 5em;
+}
+
+#navbar ul { 
+    position: absolute;
+    width: 100%;
+	margin: 0 auto; 
+    top: 2em;
+	/* padding-right: 70px;  */
+	list-style-type: none; 
+	text-align: right;
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+    /* color: #b4ca9a; */
+    color: #f18f74;
+    font-size: 1.5rem;
+    font-family: 'Arima Madurai', cursive;
+    text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+	/* color: #fff; 
+	background-color: #000;  */
+	} 
+ 
+#navbar ul li a:hover { 
+    color: #bdd3a1;
+	} 
+
+body {
+    background: url(../img/White_Kitty_newer.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    /* padding-top: 1015px;  */
+    /* padding-bottom: 700px;  */
+    margin: 0;
+    color: black;
+}
+
+p {
+
+    /* color: #9fb585; */
+    /* color: #b4ca9a; */
+    color: #f18f74;
+    /* font-family: 'Stalemate', cursive; */
+    /* font-family: 'Grey Qo', cursive; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Arima Madurai', cursive;
+}
+
+#body_text_container {
+    width: 50%;
+    margin: auto;
+}
+
+#sub_header {
+    top: 5.5em;
+    right: 2em;
+    margin-top: 0;
+    padding-left: 2em;
+    position: fixed;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 1.25;
+    text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+}
+
+#Leonardo {
+    font-family: 'Stalemate', cursive;
+    font-size: 3rem;
+    padding-right: 0.5em;
+}
+
+#body_text {
+    top: 35em;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#button_meow {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 3em;
+    margin-right: 2em;
+    /* background-color: #9fb585; */
+    background-color: #b4ca9a;
+    /* background-color: #f18f74; */
+    /* background-color: #ce7f6a; */
+    font-family: 'Arima Madurai', cursive;
+    /* height: 150px;
+    width: 150px;   */
+    height: 10rem;
+    width: 10rem;  
+    line-height: 2rem;  
+    /* height: fit-content;
+    width: fit-content; */
+    font-size: 2rem;
+    /* font-weight: bold; */
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+    text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+    box-shadow: 2px 4px 10px rgba(0,00,0,0.1);
+    /* padding: 0.5em; */
+}
+
+#button_meow:hover {
+    background-color: #bdd3a1;
+}
+
+#meow_text {
+    /* font-family: 'Stalemate', cursive; */
+    /* font-size: 5rem; */
+    font-style: italic;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em;            /* Footer height */
+    /* color: #9fb585; */
+    color: #f18f74;
+    text-align: center;
+    padding-top: 0.5em;
+    /* padding: 10px 20px 10px 20px; */
+    background-color: rgb(232, 195, 185, 0.25);
+    text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+    z-index: 1;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1rem;
+    /* margin-bottom: 0px; */
+  }
+
+
+/***** MOBILE VIEW *****/
+
+@media screen and (max-width: 1200px) {
+
+    .header {
+        height: 9em;
+    }
+
+    h1 {
+        top: 0.25em;
+        font-size: 5rem;
+    }
+
+    #navbar ul { 
+
+        top: 2.25em;
+        } 
+     
+    #navbar ul li a { 
+
+        font-size: 2rem;
+        } 
+
+    #sub_header {
+        top: 5em;
+        right: 1.75em;
+        margin-top: 0;
+        padding-left: 2em;
+        position: fixed;
+        text-align: right;
+        font-size: 2.5rem;
+        line-height: 1.25;
+        text-shadow: 2px 4px 6px rgba(0,00,0,0.1);
+    }
+
+
+    #Leonardo {
+        font-size: 4rem;
+        padding-right: 0.5em;
+    }
+
+    #button_meow {
+
+        margin-bottom: 2.5em;
+        margin-right: 1.5em;
+        font-size: 3rem;
+        height: 12rem;
+        width: 12rem;  
+        line-height: 2rem;  
+    }
+
+    #footer {
+        height: 1.75em;
+        font-size: 1.5rem;
+        /* padding-top: 1em; */
+    }
+
+}
