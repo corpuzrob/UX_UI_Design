@@ -8,10 +8,31 @@
     width: 100%;
 }
 
+/* @media (min-width: 1200px) {
+    .banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        /* float: right; */
+    }
+} */
+
+/* @include media-breakpoint-up(xl) {
+    .banner {
+        width: 50%;
+    }
+} */
+
 .banner-content {
     position: relative;
     top: 200px;
     left: 50px;
+}
+
+.top-left {
+    position: relative;
+    top: 20%;
 }
 
 .center {
@@ -19,7 +40,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    }
+}
 
 
 .navbar, .nav-item, .nav-link, .navbar-nav {
