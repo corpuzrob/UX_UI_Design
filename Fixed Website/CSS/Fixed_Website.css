@@ -1,0 +1,67 @@
+* {
+    font-family: 'Zilla Slab', serif;
+}
+
+.navbar, .nav-item, .nav-link, .navbar-nav {
+    color:#8ad6c0!important;
+}
+
+.navber:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
+    color: white!important;
+}
+
+h1, h2 {
+    font-family: Airstream, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8a7055;
+}
+
+.container-fluid, .navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
+    background-color: #8a7055;
+}
+
+.nav-item {
+    color: #8ad6c0;
+}
+
+@font-face {
+    font-family: 'airstreamregular';
+    src: url('Airstream-webfont.eot');
+    src: url('Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Airstream-webfont.woff2') format('woff2'),
+         url('Airstream-webfont.woff') format('woff'),
+         url('Airstream-webfont.ttf') format('truetype'),
+         url('Airstream-webfont.svg#airstreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.text-success {
+    color: #8ad6c0!important;
+}
+
+/* a {
+    color: #8a7055!important;
+} */
+
+a:hover {
+    color: #8a7055!important;
+}
+
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #8ad6c0;
+    color: #8a7055;
+    border: none;
+}
+
+.btn:hover{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #8a7055;
+    color: #8ad6c0;
+    border: none;
+}
+
+.navbar-toggler{
+    font-family: 'Bebas Neue', cursive;
+}
