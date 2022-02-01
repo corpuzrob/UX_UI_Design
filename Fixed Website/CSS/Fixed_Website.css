@@ -2,6 +2,20 @@
     font-family: 'Zilla Slab', serif;
 }
 
+.banner {
+    /* float: left; */
+    display: block;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+
 .navbar, .nav-item, .nav-link, .navbar-nav {
     color:#8ad6c0!important;
 }
@@ -15,7 +29,7 @@ h1, h2 {
     color: #8a7055;
 }
 
-.container-fluid, .navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
+.navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
     background-color: #8a7055;
 }
 
@@ -33,7 +47,6 @@ h1, h2 {
          url('Airstream-webfont.svg#airstreamregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .text-success {
@@ -58,7 +71,7 @@ a:hover {
 .btn:hover{
     font-family: 'Bebas Neue', cursive;
     background-color: #8a7055;
-    color: #8ad6c0;
+    color: #8ad6c0!important;
     border: none;
 }
 
