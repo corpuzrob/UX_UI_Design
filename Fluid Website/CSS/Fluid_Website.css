@@ -1,0 +1,210 @@
+* {
+    font-family: 'Zilla Slab', serif;
+    color:#d4611e;
+}
+
+body {
+    width: 100%;
+    /* min-width: auto; */
+    margin: 0, 0, 0, 0;
+}
+
+.banner {
+    /* float: left; */
+    display: block;
+    width: 100%;
+}
+
+/* .banner-content {
+    position: relative;
+    top: 200px;
+    left: 50px;
+} */
+
+.top-left {
+    position: relative;
+    top: 20%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* .navbar {
+  padding-left: 1.5em;
+  padding-right: 1em;
+} */
+
+.navbar, .nav-item, .nav-link, .navbar-nav {
+    color:#8ad6c0!important;
+}
+
+.navber:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
+    color: white!important;
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+  color: #d4611e!important;
+  background-color: #8ad6c0;
+}
+
+h1, h2 {
+    font-family: Airstream, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #d4611e;
+}
+
+.navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
+    background-color: #d4611e;
+}
+
+.nav-item {
+    color: #8ad6c0;
+}
+
+@font-face {
+    font-family: 'airstreamregular';
+    src: url('Airstream-webfont.eot');
+    src: url('Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Airstream-webfont.woff2') format('woff2'),
+         url('Airstream-webfont.woff') format('woff'),
+         url('Airstream-webfont.ttf') format('truetype'),
+         url('Airstream-webfont.svg#airstreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-success {
+    color: #8ad6c0!important;
+}
+
+a:hover {
+    color: #d4611e!important;
+}
+
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #8ad6c0;
+    color: #d4611e;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #d4611e;
+    color: #8ad6c0!important;
+    border: none;
+}
+
+.navbar-toggler{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.content-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-wrapper img {
+    width: 100%;
+    min-height: auto;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -52%;
+    /* margin-top: -40em; */
+    /* padding-bottom: 16%; */
+    padding-bottom: 35%;
+    /* padding-left: 2%; */
+}
+
+.text-wrapper h1 {
+    text-align: left;
+}
+
+.body-content {
+    font-size: 1em;
+    padding: 1.5rem;
+}
+
+.banner {
+    margin: 0, 0, 0, 0;
+}
+
+.row {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-content {
+  margin-top: 3rem;
+}
+
+/* btn.btn-active {
+    color: blueviolet!important;
+    background-color: crimson!important;
+} */
+
+
+@media (max-width: 800px) {
+   .text-wrapper {
+        margin-top: -2rem;
+        /* margin-left: 0.5rem; */
+        margin-bottom: 0rem;
+        padding-bottom: 0;
+   }
+
+   .main-content {
+        margin-top: 1rem;
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem;  */
+   }
+
+   .content-wrapper {
+        height: 50%;
+        width: auto;
+        overflow: hidden;
+   }
+
+   .content-wrapper img {
+        height: 55vh;
+        object-fit: cover;
+   }
+
+   .gallery {
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem;    */
+        margin-bottom: 0; 
+   }
+
+   .gallery img {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;   
+   }
+
+   .gallery row {
+        margin-top: 0;
+        margin-bottom: 0;
+   }
+
+   /* footer {
+       margin-left: 0.5rem;
+       margin-right: 0.5rem; 
+   } */
+}
