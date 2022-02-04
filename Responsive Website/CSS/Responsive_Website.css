@@ -42,9 +42,13 @@ h1, h2 {
     color: white;
 }
 
-/* .card, .card-img-top, .card-img-overlay {
+/* .point_corners {
     border-radius: none!important;
 } */
+
+.card, .card-img-top, .card-img-overlay {
+    border-radius: 0!important;
+}
 
 /* .navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
     background-color: #d4611e;
@@ -52,6 +56,10 @@ h1, h2 {
 
 .nav-item {
     color: #8ad6c0;
+}
+
+.logo {
+    padding-left: 0.5em;
 }
 
 .content-wrapper {
@@ -145,6 +153,10 @@ img {
         height: 100vh;
         object-fit: cover;
    }
+
+   .logo {
+    padding-left: 0;
+}
 
    /* footer {
        margin-left: 0.5rem;
