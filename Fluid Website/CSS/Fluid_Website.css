@@ -48,7 +48,8 @@ body {
 
 .navbar-toggler-icon, .navbar-toggler {
   color: #d4611e!important;
-  background-color: #8ad6c0;
+  background-color: #8ad6c0!important;
+  border-radius: 15px;
 }
 
 h1, h2 {
@@ -97,6 +98,7 @@ a:hover {
     background-color: #d4611e;
     color: #8ad6c0!important;
     border: none;
+    outline: none;
 }
 
 .navbar-toggler{

@@ -1,0 +1,147 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    color: #390CB4;
+}
+
+/* body {
+    width: 100%;
+    margin: 0, 0, 0, 0;
+} */
+
+.navbar-brand {
+    font-family: 'Rozha One', serif;
+}
+
+.nav, .navbar {
+    color:white!important;
+    background-color: #D94C92!important;
+}
+
+.navber:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
+    color: white!important;
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+  background-color: #A057F8!important;
+  border-radius: 15px;
+}
+
+/* .card-body {
+    padding: 12rem!important;
+} */
+
+h1, h2 {
+    /* font-family: 'Castoro', serif; */
+    font-family: 'Rozha One', serif;
+    /* color: #033e16!important; */
+    color: #A057F8!important;
+
+}
+
+.card-text {
+    color: white;
+}
+
+/* .navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
+    background-color: #d4611e;
+} */
+
+.nav-item {
+    color: #8ad6c0;
+}
+
+.content-wrapper {
+    height: 50%;
+    width: auto;
+    overflow: hidden;
+}
+
+.content-wrapper img {
+    height: 55vh;
+    object-fit: cover;
+}
+
+.banner {
+    height: 75vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.banner img {
+    height: 100vh;
+    object-fit: cover;
+    border: none!important;
+    border-radius: none!important;
+}
+
+.banner {
+    border: none!important;
+    border-radius: none!important;
+}
+
+/* .card-img-overlay, .card-img-top {
+    border-radius: none!important;
+} */
+
+/* .text-success {
+    color: #8ad6c0!important;
+} */
+
+/* a:hover {
+    color: #d4611e!important;
+} */
+
+.btn, .btn-success {
+    font-family: 'Mulish', sans-serif;
+    background-color: #D94C92!important;
+    color: #390CB4!important;
+    border: none!important;
+    outline: none!important;
+    /* border-radius: 15px; */
+}
+
+.btn:hover{
+    background-color: #e8338d!important;
+    color: #390CB4!important;
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-dark {
+    background-color: #D94C92!important;
+}
+
+@media (max-width: 800px) {
+   .text-wrapper {
+        margin-top: -2rem;
+        /* margin-left: 0.5rem; */
+        margin-bottom: 0rem;
+        padding-bottom: 0;
+   }
+
+   .main-content {
+        margin-top: 1rem;
+        /* margin-left: 0.5rem;
+        margin-right: 0.5rem;  */
+   }
+
+   .banner {
+        height: 65vh;
+        width: auto;
+        overflow: hidden;
+   }
+
+   .banner img {
+        height: 100vh;
+        object-fit: cover;
+   }
+
+   /* footer {
+       margin-left: 0.5rem;
+       margin-right: 0.5rem; 
+   } */
+}
