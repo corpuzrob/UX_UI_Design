@@ -3,11 +3,6 @@
     color: #390CB4;
 }
 
-/* body {
-    width: 100%;
-    margin: 0, 0, 0, 0;
-} */
-
 .navbar-brand {
     font-family: 'Rozha One', serif;
 }
@@ -30,7 +25,7 @@
     padding: 12rem!important;
 } */
 
-h1, h2 {
+h1, h2, h3, h4 {
     /* font-family: 'Castoro', serif; */
     font-family: 'Rozha One', serif;
     /* color: #033e16!important; */
@@ -38,21 +33,17 @@ h1, h2 {
 
 }
 
+.line-height-reduce {
+    line-height: 0.5;
+}
+
 .card-text {
     color: white;
 }
 
-/* .point_corners {
-    border-radius: none!important;
-} */
-
 .card, .card-img-top, .card-img-overlay {
     border-radius: 0!important;
 }
-
-/* .navbar, .navbar-nav, .navbar-expand-lg, .navbar-dark, .bg-dark{
-    background-color: #d4611e;
-} */
 
 .nav-item {
     color: #8ad6c0;
@@ -92,18 +83,6 @@ img {
     border-radius: none!important;
 }
 
-/* .card-img-overlay, .card-img-top {
-    border-radius: none!important;
-} */
-
-/* .text-success {
-    color: #8ad6c0!important;
-} */
-
-/* a:hover {
-    color: #d4611e!important;
-} */
-
 .btn, .btn-success {
     font-family: 'Mulish', sans-serif;
     font-weight: 900;
@@ -130,19 +109,6 @@ img {
 }
 
 @media (max-width: 800px) {
-   .text-wrapper {
-        margin-top: -2rem;
-        /* margin-left: 0.5rem; */
-        margin-bottom: 0rem;
-        padding-bottom: 0;
-   }
-
-   .main-content {
-        margin-top: 1rem;
-        /* margin-left: 0.5rem;
-        margin-right: 0.5rem;  */
-   }
-
    .banner {
         height: 65vh;
         width: auto;
@@ -157,9 +123,4 @@ img {
    .logo {
     padding-left: 0;
 }
-
-   /* footer {
-       margin-left: 0.5rem;
-       margin-right: 0.5rem; 
-   } */
 }
