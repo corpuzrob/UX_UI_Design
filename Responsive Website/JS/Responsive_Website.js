@@ -147,8 +147,8 @@ anime({
 
 // anime({
 //     targets: '.banner',
-//     height: '50%',
-//     delay: 1000,
-//     duration: 1500,
+//     height: '75%',
+//     delay: 3000,
+//     duration: 100,
 //     // easing: 'easeInOutSine'
 // })
