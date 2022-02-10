@@ -75,7 +75,7 @@ var mouseHoverAnimation = () => {
             delay: 500,
             value: 1.1
         },
-        // color: "#D94C92",
+        color: "#D94C92",
         duration: 500
     })
 }
@@ -87,6 +87,7 @@ var mouseOutAnimation = () => {
             value: 0,
             delay: 500
         },
+        color: "#A057F8",
         scale: {
             delay: 500,
             value: 1

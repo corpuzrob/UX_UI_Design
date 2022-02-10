@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
     /* font-family: 'Castoro', serif; */
     font-family: 'Rozha One', serif;
     /* color: #033e16!important; */
-    color: #A057F8!important;
+    color: #A057F8;
 
 }
 
@@ -107,6 +107,10 @@ img {
 .bg-dark {
     background-color: #D94C92!important;
 }
+
+/* .RuthMORE:hover {
+    color: #D94C92;
+} */
 
 @media (max-width: 800px) {
    .banner {
