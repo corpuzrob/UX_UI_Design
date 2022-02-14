@@ -1,0 +1,240 @@
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #000000;
+}
+
+.container-fluid {
+    padding: 0!important;
+}
+
+/* @font-face {
+    font-family: 'medio_vintageregular';
+    src: url('medio_vintage-webfont.woff2') format('woff2'),
+         url('medio_vintage-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+.navbar-logo {
+    margin: 12px;
+    padding: 12px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+.nav, .navbar, .nav-item {
+    color: #ff4200!important;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+    /* background-color: rgba(255, 255, 255, 0.15); */
+}
+
+.navber:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
+    color: #ffb400!important;
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+  background-color: #ff4200!important;
+  color: #ffb400!important;
+  border-radius: 15px;
+  margin-top: 0px!important;
+  padding-top: 0px!important;
+}
+
+/* .navbar {
+    background-color: transparent !important;
+} */
+
+/* ADDS NAVBAR BACKGROUND */
+/* .navbar {
+    background-color: white !important;
+} */
+
+
+.go_deep, .go_grand {
+    /* text-shadow: 2px 2px 6px #000000; */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    line-height: 0.75em;
+}
+
+
+.jumbotron-fluid {
+    /* background-color: #8ad6c0; */
+    height: 100vh;
+    width: 100vw;
+    margin-top: 65vh;
+    margin-left: 70vw;
+}
+
+.next-step {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+}
+
+h1, h2, h3, h4 {
+    /* font-family: 'medio_vintageregular', Impact, sans-serif; */
+    /* font-family: 'Vujahday Script', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Passion One', cursive; */
+    /* font-family: 'Castoro', serif; */
+    /* font-family: 'Londrina Solid', cursive; */
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'Coda Caption', sans-serif;   */
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Road Rage', cursive;
+    /* color: #033e16!important; */
+    color: #ffb400;
+}
+
+/* body {
+    background-color: rgba(142, 142, 142, 0.5)!important;
+} */
+
+.line-height-reduce {
+    line-height: 0.5;
+}
+
+.card-text {
+    color: white;
+}
+
+.card, .card-img-top, .card-img-overlay {
+    border-radius: 0!important;
+}
+
+.nav-item {
+    color: #ff4200;
+}
+
+.content-wrapper {
+    height: 50%;
+    width: auto;
+    overflow: hidden;
+}
+
+.content-wrapper img {
+    height: 55vh;
+    object-fit: cover;
+}
+
+.banner {
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    border: none!important;
+    border-radius: none!important;
+}
+
+.banner img {
+    height: 100vh;
+    object-fit: cover;
+    border: none!important;
+    border-radius: none!important;
+}
+
+img {
+    border-radius: none!important;
+}
+
+.btn, .btn-success {
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    background-color: #ff4200!important;
+    color: #ffb400!important;
+    border: none!important;
+    outline: none!important;
+    /* border-radius: 15px; */
+}
+
+.btn:hover{
+    background-color: #ffb400!important;
+    color: #ff4200!important;
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #ffb400!important;
+    padding-top: 16!important;
+    padding-bottom: 12!important;
+}
+
+/* .bg-dark {
+    background-color: #ff4200!important;
+} */
+
+/* .video-1 {
+    width: 100vw;
+} */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 800px) {
+   .banner {
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+   }
+
+   .banner img {
+        height: 100vh;
+        object-fit: cover;
+   }
+
+   /* .logo {
+    padding-left: 0;
+   } */
+
+   .jumbotron-fluid {
+        /* margin-top: 77vh;
+        margin-left: 48vw; */
+        height: 80vh;
+        width: 90vw;
+        margin-top: 30vh;
+        margin-left: 42vw;
+    }
+
+    /* .next-step {
+        margin-top: 40vh;
+        position: fixed;
+
+    } */
+
+    .next-step {
+        position: fixed;
+        right: 12px!important;
+        bottom: 12px!important;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.95)!important;
+    }
+
+    .navbar-logo {
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding-left: 6;
+        padding-top: 6;
+        padding-bottom: 0;
+    }
+
+}
