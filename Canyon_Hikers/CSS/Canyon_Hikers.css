@@ -1,6 +1,7 @@
 * {
     font-family: 'Source Sans 3', sans-serif;
-    color: #000000;
+    /* color: #b53203; */
+    color: rgb(31, 0, 98);
 }
 
 .container-fluid {
@@ -17,7 +18,8 @@
 
 .navbar-logo {
     margin: 12px;
-    padding: 12px;
+    /* padding: 12px; */
+    padding: 12px 12px 0 12px;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
 }
 
@@ -32,12 +34,12 @@
 }
 
 .navber:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
-    color: #ffb400!important;
+    color: #ffad0d!important;
 }
 
 .navbar-toggler-icon, .navbar-toggler {
   background-color: #ff4200!important;
-  color: #ffb400!important;
+  color: #ffad0d!important;
   border-radius: 15px;
   margin-top: 0px!important;
   padding-top: 0px!important;
@@ -48,9 +50,9 @@
 } */
 
 /* ADDS NAVBAR BACKGROUND */
-/* .navbar {
+.navbar {
     background-color: white !important;
-} */
+}
 
 
 .go_deep, .go_grand {
@@ -74,7 +76,7 @@
     bottom: 24px;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
     /* font-family: 'medio_vintageregular', Impact, sans-serif; */
     /* font-family: 'Vujahday Script', cursive; */
     /* font-family: 'Anton', sans-serif; */
@@ -86,11 +88,36 @@ h1, h2, h3, h4 {
     /* font-family: 'Special Elite', cursive; */
     font-family: 'Road Rage', cursive;
     /* color: #033e16!important; */
-    color: #ffb400;
+    /* color: #ffb400; */
+    color: #ffad0d;
+    /* color: #ff825c; */
 }
 
+.h1-special {
+    font-family: 'Vujahday Script', cursive; 
+    color: #ff4200;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* .container-special {
+    background-color: #ff5c7b;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+} */
+
+.articles {
+    padding-top: 5rem;
+}
+
+/* h2, h3, h4 {
+    font-family: 'Road Rage', cursive;
+    color: #ff4200;
+} */
+
+
 /* body {
-    background-color: rgba(142, 142, 142, 0.5)!important;
+    background-color: rgba(111, 0, 255, 0.1)!important;
 } */
 
 .line-height-reduce {
@@ -143,23 +170,27 @@ img {
     font-family: 'Source Sans 3', sans-serif;
     text-transform: uppercase;
     font-weight: 700!important;
-    background-color: #ff4200!important;
-    color: #ffb400!important;
+    /* background-color: #ff4200!important; */
+    background-color: #ff5c7b!important;
+    /* color: #ffb400!important; */
+    color: #ffad0d!important;
     border: none!important;
     outline: none!important;
     /* border-radius: 15px; */
 }
 
 .btn:hover{
-    background-color: #ffb400!important;
-    color: #ff4200!important;
+    /* background-color: #ffb400!important; */
+    background-color: #ffad0d!important;
+    /* color: #ff4200!important; */
+    color: #ff5c7b!important;
     border: none;
     outline: none;
 }
 
 .navbar-toggler{
     font-family: 'Source Sans 3', sans-serif;
-    color: #ffb400!important;
+    color: #ffad0d!important;
     padding-top: 16!important;
     padding-bottom: 12!important;
 }
@@ -176,6 +207,7 @@ img {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
+    z-index: -2;
   }
 
 .video {
