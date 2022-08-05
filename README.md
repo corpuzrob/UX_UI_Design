@@ -1,6 +1,6 @@
 # UX_UI_Design
  
-This is a collection of a few UX/UI design projects that I created.
+This is a collection of a few UX/UI design projects that I created. See my [design portfolio](https://www.robcorpuz.design/) for more details.
 
 Projects:
 
@@ -11,7 +11,7 @@ Projects:
 
 ### Canyon Hikers
 
-A new website homepage and branding to help the fictional "Canyon Hikers" company promote their tours of the Grand Canyon to successful women.
+A new website homepage and branding to help the fictional "Canyon Hikers" company promote their tours of the Grand Canyon to successful women. You can read the case study for this project [here](https://www.robcorpuz.design/project/rocking-a-new-digital-presence-for-a-canyon-hiking-company).
 
 ### Second Breath Finds
 
